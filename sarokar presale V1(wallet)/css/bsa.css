@@ -1,0 +1,550 @@
+
+.class{background-color:#212529;}
+#normal{background-color:#2125}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body{
+   
+    line-height: 1;
+    font-size: 16px;
+    font-family: 'Kanit';
+    background-color:#212529;
+   
+}
+
+
+
+div {
+    display: block;
+    
+  
+}
+
+
+
+.pre-sale {
+    background-size: auto !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    position: relative;
+    z-index: 1;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+   
+}
+
+.top-text {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Kanit';
+}
+
+.progress-place {
+    background: rgb(32, 38, 48);
+    border-radius: 10px;
+    max-width: 380px;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.progressbar {
+    background: linear-gradient(rgb(248, 209, 47) 0%, rgb(240, 185, 10) 100%);
+    border-radius: 10px;
+    height: 10px;
+    max-width: 380px;
+    width: 20%;
+    transition: width 1s ease-in-out 0s;
+}
+
+.swap-page {
+    position: relative;
+    max-width: 436px;
+    width: 100%;
+    z-index: 5;
+    background: rgb(18, 22, 28);
+    border-radius: 32px;
+    box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px;
+    color: rgb(234, 226, 252);
+    overflow: hidden;
+}
+
+.swap {
+    position: relative;
+}
+
+.swap-header {
+    padding: 24px 24px 0px;
+}
+
+.swap-header-text {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.swap-header-text-inner {
+    flex: 1 1 0%;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: white;
+}
+
+.trade-padding {
+    padding: 24px;
+}
+
+.trade-inner {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 12px;
+}
+
+.swap-currency-input {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(16, 12, 24);
+    z-index: 1;
+}
+
+.from-field {
+    background: rgb(21, 26, 32);
+    border: 1px solid rgb(31, 37, 44);
+    border-radius: 10px;
+}
+
+.from-text-outer {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(234, 226, 252);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.75rem 1rem 0px;
+}
+
+.from-text-inner {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.from-text {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    font-family: 'Kanit';
+}
+
+.from-input-field {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem 0.75rem 1rem;
+}
+
+.from-input {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.5px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    width: 0px;
+    position: relative;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    appearance: textfield;
+    margin: 0;
+    font-family: 'Kanit';
+}
+
+.BNB {
+    -webkit-box-align: center;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+    line-height: inherit;
+    font-family: inherit;
+    align-items: center;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(234, 226, 252);
+    border-radius: 12px;
+    outline: none;
+    user-select: none;
+    border: none;
+    padding: 0px 0.5rem;
+}
+
+.BNB-info {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.BNB-logo{
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-family: Kanit, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.BNB-pair{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.5px;
+  line-height: 24px;
+  user-select: none;
+}
+
+.swap-arrow {
+    display: grid;
+    grid-auto-rows: auto;
+}
+
+.swap-arrow-inner {
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.arrow{
+  padding: 2px;
+}
+
+.arrow-button{
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0px;
+  width: 32px;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s;
+  height: 32px;
+  background-color: rgb(53, 53, 71);
+  box-shadow: none;
+  color: rgb(31, 199, 212);
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  margin: 0;
+}
+
+.arrow-svg{
+  flex-shrink: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  font-family: Kanit, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(255, 255, 255);
+  width: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-transform: none;
+}
+
+.swap-currency-output {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(16, 12, 24);
+    z-index: 1;
+}
+
+.to-field {
+    background: rgb(21, 26, 32);
+    border: 1px solid rgb(31, 37, 44);
+    border-radius: 10px;
+}
+
+.to-text-outer {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(234, 226, 252);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.75rem 1rem 0px;
+}
+
+.to-text-inner {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+
+.to-text {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+}
+
+.to-input-field {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem 0.75rem 1rem;
+}
+
+.to-input {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.5px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    width: 0px;
+    position: relative;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    appearance: textfield;
+    margin: 0;
+}
+
+.BSA {
+    -webkit-box-align: center;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+    line-height: inherit;
+    font-family: inherit;
+    align-items: center;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(234, 226, 252);
+    border-radius: 12px;
+    outline: none;
+    user-select: none;
+    border: none;
+    padding: 0px 0.5rem;
+}
+
+.BSA-info {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.BSA-logo{
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-family: Kanit, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-right: 8px;
+}
+
+.BSA-pair{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.5px;
+  line-height: 24px;
+  user-select: none;
+}
+
+.connect-button{
+  margin-top: 1rem;
+  border: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: Kanit, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.connect-trade-button{
+  cursor: pointer;
+  background-image: linear-gradient(rgb(248, 209, 47) 0%, rgb(240, 185, 10) 100%);
+  border-radius: 10px;
+  font-family: 'Kanit';
+  font-size: 15px;
+  color: rgb(11, 14, 17);
+  letter-spacing: 0px;
+  text-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  display: inline-flex;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  width: 100%;
+}
+
+.connect-trade-button:disabled{
+    background: #dddddd;
+}
+
+.pre-sale-header {
+    padding: 24px 24px 0px;
+}
+
+.pre-sale-header-text {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.pre-sale-header-text-inner {
+    flex: 1 1 0%;
+}
+
+.pre-sale-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: white;
+}
+
+.pcs-sale-header {
+    padding: 5px 24px 0px;
+}
+
+.pcs-sale-header-text {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.pcs-sale-header-text-inner {
+    flex: 1 1 0%;
+}
+
+.pcs-sale-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: white;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 73px;
+}
+
+.balance{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+}
